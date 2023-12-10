@@ -19,12 +19,18 @@ h1 {
 }
 
 h2{
-font-size: 2.5rem;
+font-size: 2.8rem;
+text-align: center;
+}
+
+h3{
+  color: #007bff;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .myName {
-  text-align: center;
-  padding: 80px 0;
+  padding: 10px 0;
   background-color: #343a40;
   color: #ffffff;
 }
@@ -40,13 +46,14 @@ font-size: 2.5rem;
 }
 
 .aboutMe {
-  padding: 40px 20px;
-  background-color: #ffffff;
+  padding: 0px 10px;
+  text-align: center;
 }
 
 .myInformation {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
+  font-size: 1.3rem;
 }
 
 .myInformation p {
@@ -58,7 +65,7 @@ font-size: 2.5rem;
 }
 
 #myProjects {
-  padding: 80px 20px;
+  padding: 20px 20px;
   background-color: #f8f9fa;
 }
 
@@ -71,17 +78,19 @@ font-size: 2.5rem;
 
 .projectCard {
   background-color: #ffffff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  padding: 5px;
 }
 
 .projectImage {
-    width: 100%;
+    width: 95%;
     height: 200px; 
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin: 10px;
   }
 
 .projectInformation {
@@ -105,4 +114,31 @@ font-size: 2.5rem;
 
 .projectLink:hover {
   background-color: #0056b3;
+}
+
+
+.contactMe {
+  background-color: #f8f9fa;
+  padding: 1-px;
+  margin-top: auto; 
+  text-align: center;
+}
+
+.contactIcons {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+.contact img {
+  width: 100px; 
+  height: auto; 
+  margin: 0 40px; 
+}
+.contact {
+  margin-top: 10px; 
+}
+
+.contact a {
+  text-decoration: none;
 }
